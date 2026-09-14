@@ -1,0 +1,28 @@
+nav{
+    min-height: 8dvh;
+    height:34px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #121212;
+}
+
+.nav-logo {
+    max-height: 5dvh;
+    max-width: 10dvh;
+    margin-top: -1dvh;
+}
+
+.logo-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff
+}
+
+.home-logo{
+    justify-items: center;
+}
+
+
+
