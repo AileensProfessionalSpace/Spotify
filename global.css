@@ -4,15 +4,19 @@ nav{
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: #121212;
+    /* background-color: #121212; */
     justify-content: space-between;
     
+}
+
+body {
+    background-color: #1c1c1c;
 }
 
 .nav-logo {
     flex-direction:row;
     display:flex;
-    margin-right:100px;
+    margin-right:10px;
     height: 4dvh;
     width: 4dvh;
     margin-top: -1dvh;
@@ -69,4 +73,79 @@ nav{
     text-align: center;
     border-radius: 20px;
     margin: 4px;
+}
+
+.search-bar {
+    width: 600px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #2c2c2c;
+}
+   
+
+#search-icon {
+    width: 27px;
+    height: 27px;
+    filter: invert(100%);
+    align-self: center;
+    margin-bottom:-20px;
+    margin-right:-10px;
+}
+
+#laundry-basket {
+    width: 45px;
+    height: 45px;
+    filter: invert(100%);
+}
+
+#search-input {
+    background-color: #2c2c2c;
+    border: 0px;
+}
+
+.header-search {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.search-text {
+    display: flex;
+    min-width:33dvw;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Main{
+    display:flex;
+
+}
+
+.album-wrapper{
+    Width:140px;
+    max-width:140px;
+    overflow-wrap: break-word;
+    padding:10px;
+}
+
+.album-card{
+    /* width: 75vw; */
+    width:20px;
+    justify-content:left;
+    Background-color:#7c7c7c10;
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    color: white;
+
+}
+
+aside{
+    background-color:rgba(255, 255, 255, 0.05);
+    height: 650px;
+    width: 450px;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-top:10px;
 }
