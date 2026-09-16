@@ -1,15 +1,20 @@
 nav{
-    min-height: 8dvh;
-    height:34px;
+    min-height: 5dvh;
+    height:25px;
     display: flex;
     align-items: center;
     flex-direction: row;
     background-color: #121212;
+    justify-content: space-between;
+    
 }
 
 .nav-logo {
-    max-height: 5dvh;
-    max-width: 10dvh;
+    flex-direction:row;
+    display:flex;
+    margin-right:100px;
+    height: 4dvh;
+    width: 4dvh;
     margin-top: -1dvh;
 }
 
@@ -20,9 +25,48 @@ nav{
     color: #ffffff
 }
 
-.home-logo{
-    justify-items: center;
+.center-column{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.right-column{
+    display:flex;
+    flex-direction: row;
+    color:white;
+    align-content:space-between;
+}
 
+#btn-1{
+    cursor:pointer;
+    margin:10px;
+    border:none;
+    border-radius:15px;
+    background-color:#ffffff;
+    display:flex;
+    font-size: 20px;
+}
 
+.icon {
+    height: 2dvh;
+    width: 2dvh;
+    align-self: center;
+}
+
+.download-icon{
+    display:flex;
+    flex-direction:row;
+
+}
+
+#download-icon-wrapper {
+    height: 3dvh;
+    width: 3dvh;
+    border: white 3px solid;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 4px;
+}
