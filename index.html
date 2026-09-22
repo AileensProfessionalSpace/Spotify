@@ -44,15 +44,17 @@
 
             <div id="right-nav">
                 <div class="right-column">
-                    <p>Premium</p>
-                    <p>Support</p> 
-                    <p>Download</p>
-
+                    <p class="text-nav">Premium</p>
+                    <p class="text-nav">Support</p> 
+                    <p class="text-nav">Download</p>
+                    <p class="text-nav">|</p>
                     <div class="download-icon">
                         <div id="download-icon-wrapper">
                             <img class="icon" src="./Images/Icons/download-icon.png" alt="Download Logo" style="filter:invert(100)">
                         </div>
+                        <div class="install-app-class">
                         <p> Install App</p>
+                        </div>
                     </div>
 
                     <div class="signup">
@@ -66,23 +68,24 @@
 
             </div>
         </nav>
-         
+
             <div id="main">
+                <!-- The side bar for Spotify -->
                 <aside>
                     <div>
                         <h4>Your Library</h4>
                         <img src="./Images/Icons/add-icon.png" alt="Plus Icon">
-                        <section>
-                            <h4> Creat your first playlist</h4>
-                            <p>It's easy,we'll help you</p>
+                        <section class="dif-sections">
+                            <h4> Create your first playlist</h4>
+                            <p>It's easy, we'll help you</p>
                             <button id="btn-2">Create playlist</button>
                         </section>
-                        <section>
+                        <section class="dif-sections">
                             <h4>Let's find some podcasts to follow</h4>
                             <p>We'll keep you updated on new episodes</p>
                             <button id="btn-3">Find podcasts</button>
                         </section>
-                        <section>
+                        <section class="small-links">
                             <p>Legal</p>
                             <p>Safety & Privacy Center</p>
                             <p>Privacy Policy</p>
@@ -91,14 +94,23 @@
                             <p>Accessibility</p>
                             <p>Notice at Collection</p>
                         </section>
-                        <section>
+                        <section  class="privacy-choice">
                             <button class="btn-4">Your Privacy Choices</button>
-                            <img src="./Images/logos/"
+                            <img class="check-box" src="./Images/Icons/check-box.png" alt="Check Box Image">
+                        </section>
+                        <section>
+                            <h5>Cookies</h5>
+                        </section>
+                        <section>
+                            <button id="btn-4"> 
+                                <img class="world-icon" src="./Images/Icons/world-icon.png">
+                                English </button>
                         </section>
                     </div>
                 </aside>
 
                 <main class="album-wrapper">
+                    <!-- The Actual Music Grid -->
                     <h1>Popular Items</h1>
                     <section class="album-container">
                         <div>
@@ -184,5 +196,13 @@
                     </section>
                 </main>
             </div >
+            <footer>
+                <div>
+                    <h5>Preview of Spotify</h5>
+                    <p>Sign up to get unlimited songs and occasional ads. No credit card needed</p>
+                </div>
+                
+                <button class="btn-5"> Sign up free </button>
+            </footer>
     </body>
 </html>     

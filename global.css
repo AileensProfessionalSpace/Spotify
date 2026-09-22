@@ -10,7 +10,7 @@ nav{
 }
 
 body {
-    background-color: #1c1c1c;
+    background-color: #121212;
 }
 
 .nav-logo {
@@ -64,7 +64,8 @@ body {
 .download-icon{
     display:flex;
     flex-direction:row;
-
+    margin-left:10px;
+    margin-right:10px;
 }
 
 #download-icon-wrapper {
@@ -173,4 +174,28 @@ h3{
     color:rgba(255, 255, 255, 0.65);
     font-size: smaller;
     margin-top:-5px;
+}
+
+.check-box{
+    margin:25px;
+    width:24px;
+}
+
+.privacy-choice{
+    display:flex;
+    flex-direction: row;
+}
+
+.text-nav{
+    margin:13px;
+    font-size:large;
+    align-self:center;
+}
+
+.signup{
+    font-size: large;
+}
+
+.install-app-class{
+    font-size:large;
 }
