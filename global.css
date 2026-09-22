@@ -131,8 +131,8 @@ body {
 }
 
 .album-card{
-    width:120px;
-    max-width:120px;
+    width:115px;
+    max-width:115px;
     overflow-wrap: break-word;
     padding:10px;
 }
@@ -161,4 +161,16 @@ aside{
 
 .home-logo{
     align-self:center;
+}
+
+h3{
+    color:white;
+    font-size: smaller;
+    margin: 13px 0px 13px 0px;
+    margin-top:13px;
+}
+.p-music{
+    color:rgba(255, 255, 255, 0.65);
+    font-size: smaller;
+    margin-top:-5px;
 }
