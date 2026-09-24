@@ -7,9 +7,9 @@
         <title>Spotify Landing Page</title>
 
         <link rel="stylesheet" href="global.css" type="text/css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com">
-        <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav>
@@ -73,23 +73,25 @@
                 <!-- The side bar for Spotify -->
                 <aside>
                     <div>
-                        <h4>Your Library</h4>
-                        <img src="./Images/Icons/add-icon.png" alt="Plus Icon">
+                        <div class="library">
+                            <h4>Your Library</h4>
+                            <img class="iconplus" src="./Images/Icons/add-icon.png" alt="Plus Icon" style="filter:invert(100)">
+                        </div>
                         <section class="dif-sections">
-                            <h4> Create your first playlist</h4>
-                            <p>It's easy, we'll help you</p>
+                            <h4 class="dif-sections-h4"> Create your first playlist</h4>
+                            <p class="dif-sections-p">It's easy, we'll help you</p>
                             <button id="btn-2">Create playlist</button>
                         </section>
-                        <section class="dif-sections">
-                            <h4>Let's find some podcasts to follow</h4>
-                            <p>We'll keep you updated on new episodes</p>
+                        <section class="dif-sections2">
+                            <h4 class="dif-sections-h4">Let's find some podcasts to follow</h4>
+                            <p class="dif-sections-p">We'll keep you updated on new episodes</p>
                             <button id="btn-3">Find podcasts</button>
                         </section>
                         <section class="small-links">
                             <p>Legal</p>
                             <p>Safety & Privacy Center</p>
                             <p>Privacy Policy</p>
-                            <p>cookies</p>
+                            <p>Cookies</p>
                             <p>About Ads</p>
                             <p>Accessibility</p>
                             <p>Notice at Collection</p>
@@ -99,11 +101,11 @@
                             <img class="check-box" src="./Images/Icons/check-box.png" alt="Check Box Image">
                         </section>
                         <section>
-                            <h5>Cookies</h5>
+                            <h5 class="cookies">Cookies</h5>
                         </section>
                         <section>
-                            <button id="btn-4"> 
-                                <img class="world-icon" src="./Images/Icons/world-icon.png">
+                            <button class="btn-5"> 
+                                <img class="world-icon" src="./Images/Icons/world-icon.png" style="filter:invert(100)" alt="World Icon">
                                 English </button>
                         </section>
                     </div>
@@ -111,7 +113,7 @@
 
                 <main class="album-wrapper">
                     <!-- The Actual Music Grid -->
-                    <h1>Popular Items</h1>
+                    <h1 class="popular-items">Popular Items</h1>
                     <section class="album-container">
                         <div>
                             <img src="./Images/album-images/I'mTheProblem-MorganWallen.jpg" alt="Morgan wallen album" class="album-card">
@@ -141,7 +143,7 @@
                         <div>
                             <img src="./Images/album-images/$ome$exy$ongs4 u-PARTYNEXTDOOR,Drake.jpg" alt="Some $exy Songs 4 u album by party next door, drake" class="album-card">
                             <h3> Some $exy Songs 4 u</h3>
-                            <p class="p-music">PARTYNEXTDOOR,Drake</p>
+                            <p class="p-music">PARTYNEXTDOOR,  Drake</p>
                         </div>
                         <div>
                             <img src="./Images/album-images/MUSIC-PlayboiCarti.jpeg" alt="MUSIC album by playboi carti" class="album-card">
@@ -196,13 +198,13 @@
                     </section>
                 </main>
             </div >
-            <footer>
+            <footer class="bottom-banner">
                 <div>
-                    <h5>Preview of Spotify</h5>
-                    <p>Sign up to get unlimited songs and occasional ads. No credit card needed</p>
+                    <h5 class="h5footer">Preview of Spotify</h5>
+                    <p class="p-credit">Sign up to get unlimited songs and occasional ads. No credit card needed</p>
                 </div>
                 
-                <button class="btn-5"> Sign up free </button>
+                <button> Sign up free </button>
             </footer>
     </body>
 </html>     
